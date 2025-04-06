@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/smalc/DataspellProjects/taxi_fare/mlruns/602966325351507387/e342d4ced5c04c54bbd456e392765d81/artifacts
+end_time: 1743944596923
+entry_point_name: ''
+experiment_id: '602966325351507387'
+lifecycle_stage: active
+run_id: e342d4ced5c04c54bbd456e392765d81
+run_name: Decision Tree
+run_uuid: e342d4ced5c04c54bbd456e392765d81
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743944588165
+status: 3
+tags: []
+user_id: smalc
