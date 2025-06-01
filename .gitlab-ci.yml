@@ -6,7 +6,7 @@ services:
 variables:
   DOCKER_DRIVER: overlay2
   REGISTRY_IMAGE: us-central1-docker.pkg.dev
-  REPOSITORY: taxi_fare
+  REPOSITORY: taxi-fare
   SERVICE_NAME_API: api
   VERSION_API: 0.1
   SERVICE_NAME_UI: ui
