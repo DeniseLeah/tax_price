@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/smalc/DataspellProjects/taxi_fare/mlruns/859426541503044266/e8760edcdf414d14a0551356a3427193/artifacts
+end_time: 1744824291774
+entry_point_name: ''
+experiment_id: '859426541503044266'
+lifecycle_stage: active
+run_id: e8760edcdf414d14a0551356a3427193
+run_name: rf_experiment
+run_uuid: e8760edcdf414d14a0551356a3427193
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744824284364
+status: 3
+tags: []
+user_id: smalc

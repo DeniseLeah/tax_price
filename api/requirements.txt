@@ -1,0 +1,8 @@
+scikit-learn
+xgboost
+pandas
+mlflow
+catboost
+fastapi
+uvicorn
+
