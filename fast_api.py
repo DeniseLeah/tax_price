@@ -41,10 +41,9 @@ from sklearn.ensemble import RandomForestRegressor, VotingRegressor
 from sklearn.preprocessing import StandardScaler
 from pydantic import BaseModel
 
-logged_model = 'runs:/ede36d7eaa17401e86d3b995a761508b/model'
+import joblib
 
-# Load model as a PyFuncModel.
-loaded_model = mlflow.pyfunc.load_model(logged_model)
+loaded_model = joblib.load('model.pkl')  # Load the pre-trained model
 
 
 from fastapi import FastAPI
