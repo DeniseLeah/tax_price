@@ -17,7 +17,7 @@ if file:
     st.write(df)
 
 
-    url = "" # URL of the FastAPI endpoint
+    url = "https://api-taxi-fare-1027262266945.europe-west10.run.app" # URL of the FastAPI endpoint
     response = requests.post(f"{url}/predict", json={"data":df.to_json(orient='records')})
     if response.status_code == 200:
         df["answer of predictions"] = pd.Series(response.json()['predictions'])
